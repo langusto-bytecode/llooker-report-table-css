@@ -55,9 +55,14 @@
   table-layout: fixed;
 }
 
+thead {
+  background-color: #ffffff
+}
+
 th.headerCell {
   position: sticky;
   top: 0;
+  background-color: #ffffff; 
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
