@@ -56,12 +56,13 @@
 }
 
 thead {
+  position: sticky;
   background-color: #ffffff
   z-index: 1;
+  opacity: 1;
 }
 
 th.headerCell {
-  position: sticky;
   top: 0;
   background-color: #ffffff; 
   border-bottom: 1px solid #000000 !important;
@@ -70,14 +71,12 @@ th.headerCell {
 }
 
 .headerCell.merged {
-  position: sticky;
   top: 0;
   text-align: center !important;
   background-color: #ffffff !important;
 }
 
 .headerCell.transposed.dimension.merged {
-  position: sticky;
   top: 0;
   text-align: center !important;
   background-color: #ffffff !important;
