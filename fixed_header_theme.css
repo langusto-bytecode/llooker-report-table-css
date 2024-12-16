@@ -56,17 +56,20 @@
 }
 
 th.headerCell {
+  position: sticky;
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
 }
 
 .headerCell.merged {
+  position: sticky;
   text-align: center !important;
   background-color: #ffffff !important;
 }
 
 .headerCell.transposed.dimension.merged {
+  position: sticky;
   text-align: center !important;
   background-color: #ffffff !important;
 }
