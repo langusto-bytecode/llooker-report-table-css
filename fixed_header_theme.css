@@ -57,6 +57,7 @@
 
 th.headerCell {
   position: sticky;
+  top: 0;
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
@@ -64,12 +65,14 @@ th.headerCell {
 
 .headerCell.merged {
   position: sticky;
+  top: 0;
   text-align: center !important;
   background-color: #ffffff !important;
 }
 
 .headerCell.transposed.dimension.merged {
   position: sticky;
+  top: 0;
   text-align: center !important;
   background-color: #ffffff !important;
 }
