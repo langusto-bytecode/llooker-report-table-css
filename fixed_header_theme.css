@@ -57,6 +57,7 @@
 
 thead {
   background-color: #ffffff
+  z-index: 1;
 }
 
 th.headerCell {
